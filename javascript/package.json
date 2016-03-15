@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/vgno/coding-standards/issues"
   },
-  "homepage": "https://github.com/vgno/coding-standards"
+  "homepage": "https://github.com/vgno/coding-standards",
+  "dependencies": {
+    "eslint-config-airbnb": "~6.1.0"
+  }
 }
