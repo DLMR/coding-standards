@@ -5,6 +5,11 @@
 # (multiple files can be used, and are applied starting from current document location)
 root = true
 
+# Special handling of package.json since npm want 2 spaces here
+[{package.json}]
+indent_style = space
+indent_size = 2
+
 # Use bracketed regexp to target specific file types or file locations
 [*.{js,json}]
 
